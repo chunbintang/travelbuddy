@@ -8,7 +8,7 @@ One User inputs some question on the mobile app "TravelBuddy", and then he will 
 Outline:
 I. Introduction
 	a.  App URL: 
-	b.  Code URL: https://hub.jazz.net/project/chunbintang/travelbuddy/overview
+	b.  Code URL: https://github.com/chunbintang/travelbuddy
 II. Before getting started
 	a.  Bluemix Account
 	b.  Java Liberty and Watson Question And Answer Service Skill
@@ -38,7 +38,7 @@ cf push <app_name> -p travelbuddy.war
 　　private final static String MOBILE_BACKEND_URL = "http://qa002.mybluemix.net/MobileServlet";
 　　c. Build Android app.
 V. Using the existing Android App if you do not have the Android environment 
-        1. Go to https://hub.jazz.net/project/chunbintang/travelbuddy/overview#https://hub.jazz.net/gerrit/plugins/gerritfs/list/chunbintang%252Ftravelbuddy/refs%252Fheads%252Fmaster/MyData, and download the TravelBuddyAndroid.apk file, it will point to my app qa002.mybluemix.net.
+        1. Go to https://github.com/chunbintang/travelbuddy/tree/master/TravelBuddyAndroid, and download the TravelBuddyAndroid.apk file, it will point to my app qa002.mybluemix.net.
 		2. Install it on a Android phone or tablet later than Android 4.0.
 		3. Input a question into the text field, for example, "where is new york"
 		4. Click Search to get the answer to the question above.
